@@ -153,7 +153,7 @@ const main = () => {
   return (
     <div className="">
       <div className="w-full h-full bg-white px-[14%]">
-        <div className="absolute top-[30%] md:top-[60%] lg:top-[98%] w-[72%] space-y-5 sm:space-y-0 items-center text-center">
+        <div className="absolute top-[45%] md:top-[60%] lg:top-[98%] w-[72%] space-y-5 sm:space-y-0 items-center text-center">
           <div className="flex flex-col md:flex-row sm:min-h-[33vh] gap-x-[3%]">
             {whys.map((why) => (
               <Card
@@ -187,7 +187,7 @@ const main = () => {
             ))}
           </div>
         </div>
-        <div className="mt-[1100px] xs:mt-[900px] xs:mb-10 md:mt-96 md:mb-32 lg:mt-84 lg:mb-40 grid grid-cols-1 sm:grid-cols-2 md:space-x-[25%] items-center text-center sm:text-start">
+        <div className="mt-[1200px] xs:mt-[1000px] xs:mb-10 md:mt-96 md:mb-32 lg:mt-84 lg:mb-40 grid grid-cols-1 sm:grid-cols-2 md:space-x-[25%] items-center text-center sm:text-start">
           <div className="w-full">
             <Bounce left>
               <img className="" alt="mobile" src={img1} />
